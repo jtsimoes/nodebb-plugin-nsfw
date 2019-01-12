@@ -2,7 +2,7 @@
 
 A simple plugin NodeBB that displays a confirm box with a 'not safe for work' warning when entering in a specific category.
 
-[Screenshot goes here]
+![Preview](https://i.imgur.com/jDxUPgh.png)
 
 ## Setup :
 
