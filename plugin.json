@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-nsfw",
+	"url": "https://github.com/jtsimoes/nodebb-plugin-nsfw",
+	"library": "./library.js",
+	"hooks": [],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"scripts": [
+		"static/lib/main.js"
+	]
+}

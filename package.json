@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-nsfw",
+  "version": "1.0.0",
+  "description": "Displays a confirm box with a 'not safe for work' warning when entering in a specific category.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtsimoes/nodebb-plugin-nsfw"
+  },
+  "keywords": [
+    "nodebb",
+    "nsfw",
+    "not",
+    "safe",
+    "for",
+    "work",
+    "plugin",
+    "explicit"
+  ],
+  "author": {
+    "name": "jtsimoes",
+    "email": "jtsimoes10@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtsimoes/nodebb-plugin-nsfw/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}
