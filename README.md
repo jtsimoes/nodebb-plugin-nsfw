@@ -4,6 +4,11 @@ A simple plugin NodeBB that displays a confirm box with a 'not safe for work' wa
 
 ![Preview](https://i.imgur.com/jDxUPgh.png)
 
+## Dependencies :
+
+**This plugin does not require any special dependency.** This only uses pure JavaScript and a bit of jQuery. It also uses some FontAwesome icons for a better design.
+But with all this already in NodeBB by default, there are no dependencies to install beforehand, in order to use this plugin.
+
 ## Setup :
 
 * Go to your NodeBB root;
@@ -23,5 +28,10 @@ A simple plugin NodeBB that displays a confirm box with a 'not safe for work' wa
 -  [ ]  Add a config page on ACP to change script variables;
 -  [ ]  Add support for more than one category;
 -  [ ]  Set a cooldown to avoid display the confirm every time.
+
+## Changelog :
+
+### [v1.0.0](https://github.com/jtsimoes/nodebb-plugin-nsfw/releases/tag/v1.0.0) (13/01/2019)
+* Initial version.
 
 Thanks to https://community.nodebb.org/user/psychobunny for the original snippet.
