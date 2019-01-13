@@ -8,7 +8,7 @@ A simple plugin NodeBB that displays a confirm box with a 'not safe for work' wa
 
 * Go to your NodeBB root;
 * Stop your NodeBB using `./nodebb stop`;
-* Run `npm install jtsimoes/nodebb-plugin-nsfw`;
+* Run `npm install jtsimoes/nodebb-plugin-nsfw` or copy this repository into `node_modules` folder;
 * Start your NodeBB using `./nodebb start`;
 * Enable the plugin on the ACP plugin page;
 * Restart and rebuild your NodeBB;
@@ -16,8 +16,7 @@ A simple plugin NodeBB that displays a confirm box with a 'not safe for work' wa
 
 ## Config :
 
-The default category ID is 28. I will make this customizable in the future if you need to change it, for now it's necessary to fork this repository and change the variable `nsfwCategoryId` in the file `main.js` itself.
-Feel free to change the messages and the actions that the confirm buttons does.
+**The default category ID is 28.** I will make this customizable in the future if you need to change it, for now it's necessary to fork this repository and change the variable `nsfwCategoryId` in the file `main.js` itself. Feel free to also change the messages and the actions that the confirm buttons does.
 
 ## To-Do List :
 
