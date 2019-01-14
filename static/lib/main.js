@@ -2,10 +2,11 @@
 
 $(window).on('action:ajaxify.end', function(ev) {
 
-	// Category ID to be displayed the 'not safe for work' confirm box
-	var nsfwCategoryId = 28;			
-	
-    if (parseInt(ajaxify.data.cid, 10) === nsfwCategoryId) {
+    var nsfwCategoriesIds = [28];
+    // To add more than one NSFW category, just use comma and then type the ID
+    // eg.: var nsfwCategoriesIds = [28,29,30];
+
+    if( $.inArray( parseInt(ajaxify.data.cid, 10) , nsfwCategoriesIds) != -1){
 		// Blur category content when entering on the specified category above
         $('#content').css({
             filter: 'blur(10px)'
