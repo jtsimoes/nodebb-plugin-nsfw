@@ -11,11 +11,7 @@ But with all this already in NodeBB by default, there are no dependencies to ins
 
 ## Setup :
 
-* Go to your NodeBB root;
-* Stop your NodeBB using `./nodebb stop`;
-* Run `npm install jtsimoes/nodebb-plugin-nsfw` or copy this repository into `node_modules` folder;
-* Start your NodeBB using `./nodebb start`;
-* Enable the plugin on the ACP plugin page;
+* Install and enable this plugin on the ACP "Plugins" page;
 * Restart and rebuild your NodeBB;
 * Done.
 
