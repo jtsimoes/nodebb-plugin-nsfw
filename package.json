@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-nsfw",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Displays a confirm box with a 'not safe for work' warning when entering in a specific category.",
   "main": "library.js",
   "repository": {
