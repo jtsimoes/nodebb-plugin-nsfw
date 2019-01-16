@@ -23,9 +23,12 @@ But with all this already in NodeBB by default, there are no dependencies to ins
 
 -  [ ]  Add a config page on ACP to change script variables;
 -  [x]  Add support for more than one category;
--  [ ]  Set a cooldown to avoid display the confirm every time.
+-  [x]  Set a cooldown to avoid display the confirm every time.
 
 ## Changelog :
+
+### [v1.2.0](https://github.com/jtsimoes/nodebb-plugin-nsfw/releases/tag/v1.2.0) (16/01/2019)
+* Added feature to memorize (per session) user's choice to avoid display the confirm every time the user visits any NSFW category.
 
 ### [v1.1.0](https://github.com/jtsimoes/nodebb-plugin-nsfw/releases/tag/v1.1.0) (14/01/2019)
 * Added support to choose more than one NSFW category.
