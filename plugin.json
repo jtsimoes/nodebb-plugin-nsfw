@@ -2,11 +2,19 @@
 	"id": "nodebb-plugin-nsfw",
 	"url": "https://github.com/jtsimoes/nodebb-plugin-nsfw",
 	"library": "./library.js",
-	"hooks": [],
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		}
+	],
 	"staticDirs": {
 		"static": "./static"
 	},
 	"scripts": [
 		"static/lib/main.js"
-	]
+	],
+	"templates": "static/templates"
 }
