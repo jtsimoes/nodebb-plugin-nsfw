@@ -1,4 +1,9 @@
-# NSFW (Not Safe For Work) Categories Plugin for NodeBB 1.x.x
+# NSFW (Not Safe For Work) Categories Plugin
+
+![LatestVersion](https://img.shields.io/badge/Latest_version-1.2.0-blue.png)
+![CompatibilityNodeBBv0xx](https://img.shields.io/badge/NodeBB%200.x.x-not_compatible-red.png)
+![CompatibilityNodeBBv1xx](https://img.shields.io/badge/NodeBB%201.x.x-compatible-brightgreen.png)
+![CompatibilityNodeBBlatest](https://packages.nodebb.org/api/v1/plugins/nodebb-plugin-nsfw/compatibility.png)
 
 A simple NodeBB plugin that displays a confirm box with a 'not safe for work' warning when entering in specific categories.
 
