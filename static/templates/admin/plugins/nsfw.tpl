@@ -2,7 +2,7 @@
 
 	<div class="row">
 		<div class="col-sm-2 col-xs-12 settings-header">
-			NSFW (Not Safe For Work) Categories Plugin Settings
+			NSFW Categories Plugin Settings
 		</div>
 
 		<div class="col-sm-10 col-xs-12">
@@ -20,17 +20,27 @@
 
 			<div class="form-group">
 				<label for="title">Confirm title:</label>
-				<input type="text" id="title" data-key="title" title="Title" class="form-control" placeholder="Default: Are you sure you want to continue?">
+				<input type="text" id="title" name="title" data-key="title" title="Title" class="form-control" placeholder="Default: Are you sure you want to continue?">
 			</div>
 
 			<div class="form-group">
 				<label for="message">Confirm message:</label>
-				<textarea rows="3" id="message" data-key="message" title="Message" class="form-control" placeholder="Default: This section contains <b>material that may be offensive to most sensitive people</b> and is not suitable to be seen in public places."></textarea>
+				<textarea rows="3" id="message" name="message" data-key="message" title="Message" class="form-control" placeholder="Default: This section contains <b>material that may be offensive to most sensitive people</b> and is not suitable to be seen in public places."></textarea>
+			</div>
+
+			<div class="form-group">
+				<label for="cancel">Confirm 'Cancel' button text:</label>
+				<input type="text" id="cancel" name="cancel" data-key="cancel" title="Cancel button text" class="form-control" placeholder="Default: <i class="fa fa-times-circle"></i> Cancel">
+			</div>
+
+			<div class="form-group">
+				<label for="confirm">Confirm 'Confirm' button text:</label>
+				<input type="text" id="confirm" name="confirm" data-key="confirm" title="Confirm button text" class="form-control" placeholder="Default: <i class="fa fa-arrow-circle-right"></i> Enter">
 			</div>
 
 			<div class="form-group">
 				<label for="redirect">Link to redirect when clicking 'Cancel':</label>
-				<input type="text" id="redirect" data-key="redirect" title="Redirect" class="form-control" placeholder="Default: /">
+				<input type="text" id="redirect" name="redirect" data-key="redirect" title="Redirect" class="form-control" placeholder="Default: /">
 				<small class="form-text text-muted">Use '/' if you want to redirect the user to your forum home page</small>
 			</div>
 		</div>
